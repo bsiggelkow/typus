@@ -1,3 +1,4 @@
+Typus.boot!
 Typus.setup do |config|
 
   # Application name.
