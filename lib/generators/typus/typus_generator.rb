@@ -1,10 +1,11 @@
 require "rails/generators/migration"
-require "typus/configuration"
+# require "typus/configuration"
 
 class TypusGenerator < Rails::Generators::Base
 
   include Rails::Generators::Migration
 
+  Typus.boot!
   Typus.reload!
 
   class_option :admin_title, :default => Rails.root.basename
