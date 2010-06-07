@@ -151,8 +151,6 @@ module Typus
       require "support/hash"
       require "support/object"
       require "support/string"
-      
-      require 'typus/rails'
 
       # Typus configuration and resources configuration
       require "typus/configuration"
