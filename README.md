@@ -63,3 +63,11 @@ Copyright &copy; 2007-2010 Francesc Esplugas Marti, released under the
 MIT license
 
 [1]:http://intraducibles.com/projects/typus/donate
+
+## My Fork
+My goal with this fork of Francesc Esplugas Marti's excellent Typus is 
+to make it compatible with Rails 3 and Ruby 1.9 (without breaking Ruby 1.8 compatibility).
+I do not plan on backporting any changes for earlier versions of Rails.
+My near-term plans are to:
+- Get the Typus working "as is" with Rails 3 as a plugin, then;
+- Convert Typus from a plugin to a gem-based Rails Engine
